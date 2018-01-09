@@ -11,6 +11,8 @@ import MenuItem from 'material-ui/MenuItem'
 class Main extends React.Component{
   constructor(props) {
     super(props)
+  }
+  componentWillMount() {
     this.props.listenForMessages()
   }
   render() {

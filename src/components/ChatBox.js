@@ -11,7 +11,7 @@ class ChatBox extends React.Component {
           <div className="message">{ message.message }</div>
           <div className="message-detail">
             <span>{message.from.toUpperCase()} </span>
-            <span>{ message.timestamp.toLocaleTimeString().replace(/\:[0-9]{2} /, " ") }</span>
+            <span>{ message.timestamp.toLocaleTimeString().replace(/:[0-9]{2} /, " ") }</span>
           </div>
         </div>
       </div>
