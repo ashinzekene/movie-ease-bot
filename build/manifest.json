@@ -1,16 +1,28 @@
 {
-  "short_name": "Music Player",
+  "short_name": "Movie Bot",
   "author": "Ashinze Ekene",
-  "name": "Music Player",
+  "name": "Movie Ease Chat Bot",
   "icons": [
     {
-      "src": "favicon.ico",
-      "sizes": "192x192",
-      "type": "image/png"
+      "src": "icons/mipmap-xhdpi/ic_launcher.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "icons/mipmap-xxhdpi/ic_launcher.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "icons/mipmap-xxxhdpi/ic_launcher.png",
+      "type": "image/png",
+      "sizes": "192x192"
     }
   ],
   "start_url": "./index.html",
   "display": "standalone",
   "theme_color": "#7050FA",
-  "background_color": "#ffffff"
+  "background_color": "#ffffff",
+  "description": "Ask questions about movies, actors and actresses, always be in the know",
+  "orientation": "any"
 }
