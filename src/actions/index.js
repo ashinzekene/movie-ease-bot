@@ -1,6 +1,6 @@
 import openSocket from 'socket.io-client';
-const socket = openSocket('https://movie-ease.herokuapp.com');
-// const socket = openSocket('localhost:8000');
+// const socket = openSocket('https://movie-ease.herokuapp.com');
+const socket = openSocket('localhost:5400');
 export const REMOVE_MESSAGE = 'REMOVE_MESSAGE'
 export const SEND_AI_MESSAGE = 'SEND_AI_MESSAGE'
 export const RECEIVE_AI_MESSAGE = 'RECEIVE_AI_MESSAGE'
